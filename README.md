@@ -1,16 +1,56 @@
-# React + Vite
+React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+About The Project
 
-Currently, two official plugins are available:
+This project is built using React and Vite. It provides a scalable and organized foundation for developing a modern web application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Technologies Used
 
-## React Compiler
+- React: Used to build reusable UI components and manage the application interface.
+- React DOM: Used to render React components in the browser.
+- Vite: Used as the development server and build tool.
+- Tailwind CSS: Used to style the application using utility classes and centralized design tokens.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Required Libraries
 
-## Expanding the ESLint configuration
+Library| Purpose in This Project
+React Router DOM| Handles navigation between different pages.
+Axios| Handles HTTP requests and communication with APIs.
+Zustand| Manages shared application state across components.
+Formik| Manages form values, submission, and form state.
+Yup| Validates user input and form data.
+React Icons| Provides reusable icons for the user interface.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Project Structure
+
+src/
+├── assets/
+├── components/
+├── pages/
+├── hooks/
+├── store/
+├── services/
+├── utils/
+├── styles/
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+
+Installation
+
+Clone the repository:
+
+git clone YOUR_REPOSITORY_LINK
+
+Install dependencies:
+
+npm install
+
+Run Development Server
+
+npm run dev
+
+Build For Production
+
+npm run build
